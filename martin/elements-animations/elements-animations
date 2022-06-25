@@ -1,0 +1,36 @@
+<!--- 
+source:
+https://play.tailwindcss.com/HHFpOZPjHb
+
+
+**NOTE** Don't forget to get the classes code under "animate" and "keyframes" in the .config file in this folder "elements-animations"
+
+
+Animations for INTRO
+--->
+
+<!--- Left-side icon 
+add img class below in HTML--->
+animate-spin
+
+
+<!--- Middle icon 
+add img class below in HTML
+--->
+animate-wiggle
+
+
+<!--- Right-side icon 
+add img class below in HTML--->
+animate-pulse
+
+
+
+
+<!--- Animations for BENEFITS FOR Y'ALL + HOW IT WORKS icons --->
+animate-pulse
+
+
+
+
+

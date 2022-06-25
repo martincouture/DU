@@ -1,0 +1,45 @@
+<!---NAVBAR GLASSMORPHISM-->
+<!---
+Source: 
+https://braydoncoyer.dev/blog/build-a-glassmorphic-navbar-with-tailwindcss-backdrop-filter-and-backdrop-blur
+-->
+
+<nav className="sticky top-0 z-10 bg-white">
+    <div className="max-w-5xl mx-auto px-4">
+      <div className="flex items-center justify-between h-16">
+        <span className="text-2xl text-gray-900 font-semibold">Logo</span>
+        <div className="flex space-x-4 text-gray-900">
+        <nav className="... backdrop-filter backdrop-blur-lg">...</nav>
+        <nav className="... bg-opacity-30">...</nav>
+        <nav className="... border-b border-gray-200">...</nav>
+        <nav className="... firefox:bg-opacity-90">...</nav> 
+        <div>
+            <span>My Logo</span>
+        </div>   
+          <a href="#">Benefits</a>
+          <a href="#">Our Work</a>
+          <a href="#">FAQs</a>
+          <a href="#">Pricing</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- 
+    FIREFOX SUPPORT
+NOTE: Firefox doesn’t support CSS backdrop-blur. So what’s the workaround?
+Open the tailwind.config.js file and add the following code under the plugins property.
+
+
+***See navbar-glassmorphism-firefox-support.js file***
+
+-->
+
+
+<!-- MOBILE SUPPORT
+install autoprefixer in postcss.config.js file
+
+-->
+
+
+
